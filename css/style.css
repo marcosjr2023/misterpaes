@@ -35,7 +35,6 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-
 body{
     background-color: #fff;
     height: 100vh;
@@ -56,7 +55,7 @@ body{
     padding: 10px 40px;
     font-size: 18px;
     font-weight: 600;
-    background-color: rgb(136, 23, 23);
+    background-color: #d0f0c0;
     border: 0;
     border-radius: 30px;
     cursor: pointer;
@@ -69,11 +68,11 @@ h2.titulo{
     text-align: center;
 }
 h2.titulo span{
-    color: brown;
+    color: #44633f;
 }
 
 button:hover, form .btn-enviar input:hover{
-    box-shadow: 0px 0px 8px rgb(255, 0, 0);
+    box-shadow: 0 0 20px #416b4bb2;
     transform: scale(1.10);
 }
 
@@ -81,7 +80,7 @@ button:hover, form .btn-enviar input:hover{
 
 header{
     padding: 40px 4%;
-    background-color: brown;
+    background-color: #f0fff0;
 }
 
 header > .interface{
@@ -91,7 +90,7 @@ header > .interface{
 }
 
 header a{
-    color: #fff;
+    color: #44633f;
     text-decoration: none;
     display: inline-block;
     transition: 2s;
@@ -116,12 +115,12 @@ header nav.menu-desktop ul li{
 /* ESTILO DO MENU MOBILE */
 
 .btn-abrir-menu i{
-    color: #fff;
+    color: #44633f;
     font-size: 40px;
 }
 
 .menu-mobile{
-    background-color: brown;
+    background-color: #f0fff0;
     height: 100vh;
     position: fixed;
     top: 0;
@@ -145,7 +144,7 @@ header nav.menu-desktop ul li{
 }
 
 .menu-mobile .btn-fechar i{
-    color: #fff;
+    color: #44633f;
     font-size: 40px;
 }
 
@@ -154,7 +153,7 @@ header nav.menu-desktop ul li{
 }
 
 .menu-mobile nav ul li a{
-    color: #fff;
+    color: #44633f;
     font-size: 20px;
     font-weight: 300;
     padding: 20px 8%;
@@ -162,11 +161,11 @@ header nav.menu-desktop ul li{
 }
 
 .menu-mobile nav ul li a:hover{
-    background-color: rgb(165, 66, 66);
+    box-shadow: 0 0 20px #416b4bb2;
 }
 
 .overlay-menu{
-    background-color: rgba(175, 89, 89, 0.603);
+    background-color: #5dffaf75;
     width: 100%;
     height: 100%;
     position: fixed;
@@ -179,6 +178,7 @@ header nav.menu-desktop ul li{
 /* ESTILO TOPO DO SITE */
 section.topo-do-site{
     padding: 40px 4%;
+    box-shadow: 0 0 40px 10px #5ca967bd;
 }
 
 section.topo-do-site .flex{
@@ -194,12 +194,13 @@ section.topo-do-site .flex{
 }
 
 .topo-do-site h1 span{
-    color: brown;
+    color: #44633f;
 }
 
 .topo-do-site .txt-topo-site p{
-    color: #000;
+    color: #0d6805;
     margin: 40px 0;
+    font-weight: 600;
 }
 
 .topo-do-site .img-topo-site img{
@@ -237,12 +238,12 @@ section.especialidades .flex{
 
 .especialidades .especialidades-box:hover{
     transform: scale(1.05);
-    box-shadow: 0 0 20px rgba(165, 42, 42, 0.438);
+    box-shadow: 0 0 20px #416b4bb2;
 }
 
 .especialidades .especialidades-box i{
     font-size: 70px;
-    color: brown;
+    color: #5a9367;
 }
 
 .especialidades .especialidades-box h3{
@@ -272,7 +273,7 @@ section.sobre .flex{
 }
 
 .sobre .txt-sobre h2 span{
-    color: brown;
+    color: #44633f;
     display: block;
 }
 
@@ -286,7 +287,7 @@ section.sobre .flex{
     height: 60px;
     border-radius: 50%;
     border: none;
-    background-color: brown;
+    background-color: #d0f0c0;
     font-size: 22px;
     cursor: pointer;
     margin: 0 5px;
@@ -297,7 +298,8 @@ section.sobre .flex{
 
 section.produtos{
     padding: 80px 4%;
-    box-shadow: 0 0 40px 10px rgba(165, 42, 42, 0.267);
+    box-shadow: 2px 2px 20px #5fe690;
+
 }
 
 section.produtos .flex{
@@ -326,14 +328,14 @@ section.produtos .flex{
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(165, 42, 42, 0.267);
+    background-color: #5dffaf75;
     border-radius: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 24px;
     font-weight: 600;
-    color: brown;
+    color: #000;
     opacity: 0;
     transition: .5s;
 }
@@ -342,7 +344,7 @@ section.produtos .flex{
     opacity: 1;
 }
 
-/* ESTILO DO FORMULARIO DEM CONTATO */
+/* ESTILO DO FORMULARIO DEM CONTATO
 
 section.formulario{
     padding: 80px 4%;
@@ -392,12 +394,12 @@ form .btn-enviar input{
     transition: 2s;
 }
 
-/* ESTILO DO RODAPE */
+FIM ESTILO DO RODAPE */
 
 footer{
     padding: 20px 4%;
-    box-shadow: 0 0 40px 10px rgba(165, 42, 42, 0.514);
-    background-color: brown;
+    box-shadow: 2px 2px 20px #5fe690;
+    background-color: #f0fff0;
 }
 
 footer .flex{
@@ -409,10 +411,10 @@ footer .line-footer{
 }
 
 .borda{
-    border-top: 2px solid #fff;
+    border-top: 2px solid #5fe690;
 }
 footer .line-footer p i{
-    color: #fff;
+    color: #000;
     font-size: 22px;
 }
 
@@ -421,7 +423,7 @@ footer .flex .btn-social button{
     height: 60px;
     border-radius: 50%;
     border: none;
-    background-color: rgb(151, 67, 67);
+    background-color: #d0f0c0;
     font-size: 22px;
     cursor: pointer;
     margin: 0 5px;
@@ -429,7 +431,7 @@ footer .flex .btn-social button{
 }
 
 footer .line-footer p a{
-    color: #fff;
+    color: #000;
 }
 
 footer .line-footer .logo-footer img{
@@ -525,7 +527,7 @@ footer .line-footer{
 }
 
 /********* BOTAO ZAPZAP *********/
-    
+
 .icon {
     position: fixed;
     bottom: 60px;
@@ -541,17 +543,17 @@ footer .line-footer{
     text-decoration: none;
     z-index: 100;
     box-shadow: 2px 2px 2px #c0bdbd;
-}
+  }
   
-.icon .fab{
+  .icon .fab{
     padding-top: 9px;
-}
+  }
   
-.icon:hover{
+  .icon:hover{
     background-color: #fff;
     color: #029e3b;
     font-weight: 900;
     box-shadow: 2px 2px 20px #5fe690;
-}
+  }
 
 }
